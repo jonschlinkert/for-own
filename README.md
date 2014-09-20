@@ -1,6 +1,6 @@
 # for-own [![NPM version](https://badge.fury.io/js/for-own.svg)](http://badge.fury.io/js/for-own)
 
-> Iterate over the own and inherited enumerable properties of an objecte, and return an object with properties that evaluate to true from the callback. Exit early by returning `false`.
+> Iterate over the own and inherited enumerable properties of an object, and return an object with properties that evaluate to true from the callback. Exit early by returning `false`.
 
 ## Install
 #### Install with [npm](npmjs.org):
