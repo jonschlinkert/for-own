@@ -11,8 +11,12 @@ var forIn = require('for-in');
 
 module.exports = function forOwn(o, fn, thisArg) {
   forIn(o, function (val, key) {
-    if (o.hasOwnProperty(key)) {
+    if (hasOwn(o, key)) {
       return fn.call(thisArg, o[key], key, o);
     }
   });
 };
+
+function hasOwn(o, prop) {
+  return {}.hasOwnProperty.call(o, prop);
+}
