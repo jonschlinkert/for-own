@@ -4,6 +4,10 @@
   "version": "0.1.4",
   "homepage": "https://github.com/jonschlinkert/for-own",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "contributors": [
+    "Javier Cejudo <javier@javiercejudo.com> (https://www.javiercejudo.com)",
+    "Jon Schlinkert <jon.schlinkert@sellside.com> (http://twitter.com/jonschlinkert)"
+  ],
   "repository": "jonschlinkert/for-own",
   "bugs": {
     "url": "https://github.com/jonschlinkert/for-own/issues"
@@ -20,13 +24,14 @@
     "test": "mocha"
   },
   "dependencies": {
-    "for-in": "^0.1.5"
+    "for-in": "^1.0.1"
   },
   "devDependencies": {
-    "gulp-format-md": "^0.1.7",
-    "mocha": "^2.4.5"
+    "gulp-format-md": "^0.1.11",
+    "mocha": "^3.2.0"
   },
   "keywords": [
+    "for",
     "for-in",
     "for-own",
     "has",
@@ -48,6 +53,13 @@
     "plugins": [
       "gulp-format-md"
     ],
+    "related": {
+      "list": [
+        "arr-flatten",
+        "collection-map",
+        "for-in"
+      ]
+    },
     "reflinks": [
       "verb"
     ],

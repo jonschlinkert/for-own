@@ -4,8 +4,8 @@ require('mocha');
 var assert = require('assert');
 var forOwn = require('./');
 
-describe('.forOwn()', function() {
-  it('should loop through all properties in the object.', function() {
+describe('forOwn', function() {
+  it('should expose keys and values from the given object', function() {
     var obj = {a: 'foo', b: 'bar', c: 'baz'};
     var values = [];
     var keys = [];
